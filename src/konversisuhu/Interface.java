@@ -153,12 +153,11 @@ public class Interface extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        String c = jTextField1.getText();
-        Double f = Double.parseDouble(c);
         
-        Double fa = (f*1.8)+32;
-        String str = String.valueOf(fa);
-        jTextField2.setText(str);
+        Double c = Double.parseDouble(jTextField1.getText());
+        Double f = (c*1.8)+32;
+        
+        jTextField2.setText(Double.toString(f));
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
