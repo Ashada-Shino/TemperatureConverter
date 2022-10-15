@@ -1,10 +1,10 @@
-# KonversiSuhu
+# Celcius To Fahrenheit Converter
 Aplikasi Konversi Suhu
 -
 -
 -
 -
-Celcius To Fahrenheit Converter
+
 
 Ahmad Wildan Faurizqi
 
